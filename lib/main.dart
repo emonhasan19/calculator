@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  //
   runApp(MyApp());
 }
 class MyApp extends StatelessWidget {
@@ -39,7 +38,7 @@ class _MyHomeScreenState extends State<MyHomeScreen> {
         ),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(12.0),
+        padding: const EdgeInsets.all(13.0),
         child: Column(
           children: [
             TextField(
